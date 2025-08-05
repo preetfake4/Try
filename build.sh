@@ -1,3 +1,3 @@
 #!/bin/bash
-pip install -r requirements.txt
-playwright install --with-deps
+apt-get update
+apt-get install -y wget unzip chromium chromium-driver
